@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script>
+            function replaceDigits() {
+                var str1 = document.form1.num1.value;
+                var str2 = document.form1.num2.value;
+                var str3 = document.form1.num3.value;
+                var str4 = document.form1.num4.value;                               
+                var i,j=0,k=0;
+                var arr = new Array();
+                if(str1.length != 8) {
+                    window.alert("Enter an 8 bit integer");
+                }
+                for(i = 0; i<str1.length; i ++) {
+                    if(i >= str2 && i <= str3-1) {
+                        arr[j++] = str4[k++];
+                    }
+                    else {
+                        arr[j++] = str1[i];
+                    }                    
+                }
+                document.getElementById("demo").innerHTML=arr;
+            }    
+        </script>
+    </head>
+    <body>
+        <form name = "form1" style="margin-left: auto; margin-right: auto">
+             <table style="border-spacing: 5px">
+                <tr>
+                    <td>Enter Number:</td>
+                    <td><input type = "text" name="num1" id="id1"><br></td>
+                </tr>
+                <tr>
+                    <td>Enter start bit:</td>
+                    <td><input type="text" name="num2" id = "id2"><br></td>
+                </tr>
+                <tr>
+                    <td>Enter end bit:</td>
+                    <td><input type="text" name="num3" id = "id3"><br></td>
+                </tr>
+                <tr>
+                    <td>Enter number to be replaced:</td>
+                    <td><input type="text" name="num4" id = "id4"><br></td>
+                </tr>
+            </table>
+            
+            
+        </form>
+        <button onclick="replaceDigits()">I'll replace your digits!!</button>
+        <p id="demo"></p>
+    </body>
+</html>

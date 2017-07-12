@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script>
+            function removeUpper() {               
+                var str = document.form1.string.value;
+               var arr = str.replace(/[A-Z]/g,'');                              // using regex             
+             /*   var arr = "";
+                for(i=0;i<str.length;i ++) {                                    
+                    if(str.charCodeAt(i) < 65 || str.charCodeAt(i) > 90)            //using looping
+                        arr += str.charAt(i);
+                }*/
+                 document.getElementById("demo").innerHTML = arr;
+            }
+            
+        </script>
+    </head>
+    <body>
+        <form name = "form1">
+            <table style="border-spacing: 5px">
+                <tr>
+                    <td>Enter String:</td>
+                    <td><input type = "text" name="string" id="id1" placeholder="Enter string"></td>
+                </tr>
+            </table>
+        </form>
+        
+        <button onclick="removeUpper()">Check me!!</button>
+        <p id="demo"></p>
+    </body>
+</html>
