@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<title>Movie Rating</title>
+	<head>
+		<h1>
+			<center>Find Highly Rated Movie</center>
+		</h1>
+	</head>
+	<body>
+		<center>
+			<input id="input"  placeholder="No Of Movies"><br><br>
+			<button type="button" onclick="myFunction()">Click To Add Fields</button>
+			<p id="demo"></p>
+			<p id="demo1"></p>
+			<p id="demo2"></p>
+		</center>
+		<script type="text/javascript">
+			var num;
+			var arr = [];
+			var object ;
+			function createObject(name, rating) {
+				this.name = name;
+				this.rating = rating;
+			}
+			function insertValues(){
+				var result="";
+				for(i=0;i<num*2;i+=2){
+					object = new createObject(document.getElementById("input"+i).value.toString(), document.getElementById("input"+(i+1)).value);
+					arr.push(object);
+				}
+				var max = 0;
+				var temp ;
+				for(i=0;i<arr.length;i++){
+					if(max < arr[i].rating){
+						max = arr[i].rating;
+					}
+				}
+				result += '<p style="font-size:25px;color:red">MAXIMUM RATING </p>';
+				for(i=0;i<arr.length;i++){
+					if(max == arr[i].rating){
+						result += "<p><b>MOVIE NAME</b> : "+arr[i].name +'     '+"<b>MOVIE RATING</b> : " + arr[i].rating +'<br></p>';
+					}
+				}
+				document.getElementById("demo1").innerHTML = result;
+			}
+			function myFunction(){
+				num = document.getElementById("input").value;
+				result="";
+				for(i=0;i<num*2;i+=2){
+					result+=" Movie : <input id='input"+i+"'>"+'   '+" Rating : <input id='input"+(i+1)+"'>"+'<br><br>';
+				}
+				result+="<button type='button' onclick=\"insertValues()\">Know Rating</button>";
+				document.getElementById("demo").innerHTML = result;
+			}
+		</script>`
+	</body>
+</html>
