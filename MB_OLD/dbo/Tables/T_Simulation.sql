@@ -118,3 +118,13 @@ CREATE TABLE [dbo].[T_Simulation](
 	[yAxis] [float] NOT NULL
 ) ON [PRIMARY]
 
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+CREATE TABLE [dbo].[T_Simulation](
+	[id_Simulation] [int] IDENTITY(1,1) NOT NULL,
+	[id_SimulationInformation] [int] NOT NULL,
+	[CRS] [int] NOT NULL,
+	[xAxis] [float] NOT NULL,
+	[yAxis] [float] NOT NULL
+) ON [PRIMARY]
+
