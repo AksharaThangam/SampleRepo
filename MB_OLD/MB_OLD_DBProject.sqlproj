@@ -7,7 +7,7 @@
     <Name>EmptyDatabase</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{47adbf1a-8e19-4d31-9048-a43e97ce6755}</ProjectGuid>
+    <ProjectGuid>{2b822cdc-6ffd-4abf-b097-3fe9012ce77d}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
