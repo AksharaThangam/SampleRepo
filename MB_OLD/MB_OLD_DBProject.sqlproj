@@ -7,7 +7,7 @@
     <Name>EmptyDatabase</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{90062991-4da3-44ad-8d80-46b250713477}</ProjectGuid>
+    <ProjectGuid>{6fab864e-c4eb-4983-a7e2-7ae0b1a89423}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -56,54 +56,54 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
-    <Folder Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo" />
-    <Folder Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Stored Procedures" />
-    <Folder Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables" />
-    <Folder Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\User Defined Types" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\User Defined Types\" />
     <Folder Include="Properties" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Batches.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Benches.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Bench_Details.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Boards.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Board_Documents.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Filepath.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Instruments.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Instruments_Set.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Instruments_Set_List.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Measurements.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Modes.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Parameters_Set.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Parameters_Set_List.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Parameter_Conditions.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Parameter_Names.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Parameter_Units.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Product_Board.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Product_Names.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Product_Parameters.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Origin.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Parameters_Set.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Priority.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Set.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Set_List.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Specs.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Spec_Set.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Spec_Set_List.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_RunComments.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Runs.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_SequenceNames.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_SequenceStatus.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Simu.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Simulation.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_SimulationInfo.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Status.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Str.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_TestCategory_Names.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_TestDescriptionComment.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Test_Names.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Test_Parameters.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Theoretical_Parameters.sql" />
-    <Compile Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Unit_Names.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Batches.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Benches.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Bench_Details.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Boards.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Board_Documents.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Filepath.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Instruments.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Instruments_Set.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Instruments_Set_List.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Measurements.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Modes.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Parameters_Set.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Parameters_Set_List.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Parameter_Conditions.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Parameter_Names.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Parameter_Units.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Product_Board.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Product_Names.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Product_Parameters.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Origin.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Parameters_Set.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Priority.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Set.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Set_List.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Specs.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Spec_Set.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Requirement_Spec_Set_List.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_RunComments.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Runs.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_SequenceNames.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_SequenceStatus.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Simu.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Simulation.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_SimulationInfo.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Status.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Str.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_TestCategory_Names.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_TestDescriptionComment.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Test_Names.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Test_Parameters.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Theoretical_Parameters.sql" />
+    <Build Include="C:\Users\Narendranath\Desktop\SampleTest\SampleRepo\MB_OLD\dbo\Tables\T_Unit_Names.sql" />
   </ItemGroup>
 </Project>
