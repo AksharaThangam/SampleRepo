@@ -1,5 +1,3 @@
-SET ANSI_NULLS ON
-SET QUOTED_IDENTIFIER ON
 CREATE TABLE [dbo].[T_Requirement_Specs](
 	[id_Requirement_Specs] [int] IDENTITY(1,1) NOT NULL,
 	[id_Requirement_Sets] [int] NOT NULL,

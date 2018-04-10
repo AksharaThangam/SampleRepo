@@ -1,5 +1,3 @@
-SET ANSI_NULLS ON
-SET QUOTED_IDENTIFIER ON
 CREATE TABLE [dbo].[T_Product_Board](
 	[id_ProductBoard] [int] IDENTITY(1,1) NOT NULL,
 	[id_Product] [int] NOT NULL,

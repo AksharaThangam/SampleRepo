@@ -1,5 +1,3 @@
-SET ANSI_NULLS ON
-SET QUOTED_IDENTIFIER ON
 CREATE TABLE [dbo].[T_Measurements](
 	[id_Measurement] [int] IDENTITY(1,1) NOT FOR REPLICATION NOT NULL,
 	[id_Run] [int] NOT NULL,

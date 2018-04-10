@@ -1,5 +1,3 @@
-SET ANSI_NULLS ON
-SET QUOTED_IDENTIFIER ON
 CREATE TABLE [dbo].[T_Simulation](
 	[id_Simulation] [int] IDENTITY(1,1) NOT NULL,
 	[id_SimulationInformation] [int] NOT NULL,
