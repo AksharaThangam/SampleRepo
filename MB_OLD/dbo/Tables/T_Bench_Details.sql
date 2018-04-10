@@ -2,15 +2,6 @@ SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 CREATE TABLE [dbo].[T_Bench_Details](
 	[id_Bench_Details] [int] IDENTITY(1,1) NOT NULL,
-	[FrameworkRevNum] [varchar](50) NULL,
-	[id_SequenceName] [int] NULL,
-	[id_Bench] [int] NULL
-) ON [PRIMARY]
-
-SET ANSI_NULLS ON
-SET QUOTED_IDENTIFIER ON
-CREATE TABLE [dbo].[T_Bench_Details](
-	[id_Bench_Details] [int] IDENTITY(1,1) NOT NULL,
 	[FrameworkRevNum] [varchar](50) COLLATE Latin1_General_CI_AI NULL,
 	[id_SequenceName] [int] NULL,
 	[id_Bench] [int] NULL
