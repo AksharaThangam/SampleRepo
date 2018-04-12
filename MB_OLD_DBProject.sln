@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MB_OLD_DBProject", "MB_OLD\MB_OLD_DBProject.sqlproj", "{13B16918-562C-4221-8E70-4596C89BC06B}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MB_OLD_DBProject", "MB_OLD\MB_OLD_DBProject.sqlproj", "{B52F4C13-904D-4133-9B72-209E3CE72BC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,17 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{13B16918-562C-4221-8E70-4596C89BC06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{13B16918-562C-4221-8E70-4596C89BC06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{13B16918-562C-4221-8E70-4596C89BC06B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{13B16918-562C-4221-8E70-4596C89BC06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{13B16918-562C-4221-8E70-4596C89BC06B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{13B16918-562C-4221-8E70-4596C89BC06B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B52F4C13-904D-4133-9B72-209E3CE72BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52F4C13-904D-4133-9B72-209E3CE72BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52F4C13-904D-4133-9B72-209E3CE72BC6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B52F4C13-904D-4133-9B72-209E3CE72BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52F4C13-904D-4133-9B72-209E3CE72BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52F4C13-904D-4133-9B72-209E3CE72BC6}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {14E402C0-32BB-4C88-84E0-8217C3BF958C}
+		SolutionGuid = {88383D9B-EFB9-4289-9DF2-DD3682CEDF2B}
 	EndGlobalSection
 EndGlobal
