@@ -7,7 +7,7 @@
     <Name>EmptyDatabase</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{cb8d7bd8-1b4a-4705-8e68-c605915b7e68}</ProjectGuid>
+    <ProjectGuid>{5badb559-6856-4a73-bfe9-dd8854c2b0aa}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -59,53 +59,6 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
-    <Folder Include="dbo\" />
-    <Folder Include="dbo\Stored Procedures\" />
-    <Folder Include="dbo\Tables\" />
-    <Folder Include="dbo\User Defined Types\" />
     <Folder Include="Properties" />
-  </ItemGroup>
-  <ItemGroup>
-    <Build Include="dbo\Tables\T_Batches.sql" />
-    <Build Include="dbo\Tables\T_Bench_Details.sql" />
-    <Build Include="dbo\Tables\T_Boards.sql" />
-    <Build Include="dbo\Tables\T_Board_Documents.sql" />
-    <Build Include="dbo\Tables\T_Filepath.sql" />
-    <Build Include="dbo\Tables\T_Instruments.sql" />
-    <Build Include="dbo\Tables\T_Instruments_Set.sql" />
-    <Build Include="dbo\Tables\T_Instruments_Set_List.sql" />
-    <Build Include="dbo\Tables\T_Measurements.sql" />
-    <Build Include="dbo\Tables\T_Modes.sql" />
-    <Build Include="dbo\Tables\T_Parameters_Set.sql" />
-    <Build Include="dbo\Tables\T_Parameters_Set_List.sql" />
-    <Build Include="dbo\Tables\T_Parameter_Conditions.sql" />
-    <Build Include="dbo\Tables\T_Parameter_Names.sql" />
-    <Build Include="dbo\Tables\T_Parameter_Units.sql" />
-    <Build Include="dbo\Tables\T_Product_Board.sql" />
-    <Build Include="dbo\Tables\T_Product_Names.sql" />
-    <Build Include="dbo\Tables\T_Product_Parameters.sql" />
-    <Build Include="dbo\Tables\T_Requirement_Origin.sql" />
-    <Build Include="dbo\Tables\T_Requirement_Parameters_Set.sql" />
-    <Build Include="dbo\Tables\T_Requirement_Priority.sql" />
-    <Build Include="dbo\Tables\T_Requirement_Set.sql" />
-    <Build Include="dbo\Tables\T_Requirement_Set_List.sql" />
-    <Build Include="dbo\Tables\T_Requirement_Specs.sql" />
-    <Build Include="dbo\Tables\T_Requirement_Spec_Set.sql" />
-    <Build Include="dbo\Tables\T_Requirement_Spec_Set_List.sql" />
-    <Build Include="dbo\Tables\T_RunComments.sql" />
-    <Build Include="dbo\Tables\T_Runs.sql" />
-    <Build Include="dbo\Tables\T_SequenceNames.sql" />
-    <Build Include="dbo\Tables\T_SequenceStatus.sql" />
-    <Build Include="dbo\Tables\T_Simu.sql" />
-    <Build Include="dbo\Tables\T_Simulation.sql" />
-    <Build Include="dbo\Tables\T_SimulationInfo.sql" />
-    <Build Include="dbo\Tables\T_Status.sql" />
-    <Build Include="dbo\Tables\T_Str.sql" />
-    <Build Include="dbo\Tables\T_TestCategory_Names.sql" />
-    <Build Include="dbo\Tables\T_TestDescriptionComment.sql" />
-    <Build Include="dbo\Tables\T_Test_Names.sql" />
-    <Build Include="dbo\Tables\T_Test_Parameters.sql" />
-    <Build Include="dbo\Tables\T_Theoretical_Parameters.sql" />
-    <Build Include="dbo\Tables\T_Unit_Names.sql" />
   </ItemGroup>
 </Project>
